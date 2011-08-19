@@ -11,6 +11,9 @@ echo "Installing Rails to write and run web applications ..."
 echo "Installing the Heroku gem to interact with the http://heroku.com API ..."
   gem install heroku --no-rdoc --no-ri
 
+echo "Installing the EY gem"
+  gem install ey --no-rdoc --no-ri
+
 echo "Installing the Taps gem to push and pull SQL databases between development, staging, and production environments ..."
   gem install taps --no-rdoc --no-ri
 
