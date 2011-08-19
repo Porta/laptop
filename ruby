@@ -14,5 +14,5 @@ echo "Installing the Heroku gem to interact with the http://heroku.com API ..."
 echo "Installing the Taps gem to push and pull SQL databases between development, staging, and production environments ..."
   gem install taps --no-rdoc --no-ri
 
-echo "Installing the pg gem to talk to Postgres databases ..."
-  gem install pg --no-rdoc --no-ri
+echo "Installing the pg gem to talk to Mysql databases ..."
+  gem install mysql --no-rdoc --no-ri
