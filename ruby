@@ -2,10 +2,10 @@ echo "Loading RVM"
   source ~/.bashrc
 
 echo "Installing RVM packages"
-  rvm package install autoconf
-  rvm package install openssl
-  rvm package install readline
-  rvm package install zlib
+  rvm pkg install autoconf
+  rvm pkg install openssl
+  rvm pkg install readline
+  rvm pkg install zlib
 
 
 echo "Installing Ruby 1.9.2 stable and making it the default Ruby ..."
