@@ -1,3 +1,6 @@
+echo "Loading RVM"
+  source ~/.bashrc
+
 echo "Installing RVM packages"
   rvm package install autoconf
   rvm package install openssl
